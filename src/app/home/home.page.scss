@@ -1,0 +1,112 @@
+@media(max-width: 576px) {
+    ion-content {
+      --ion-background-color: rgb(218, 178, 146);
+    }
+    ion-item {
+        --ion-background-color: rgb(255, 181, 112);
+    }
+    h2{
+        color: rgb(235, 235, 235);  
+    }
+    p{
+        color: rgb(0, 0, 0); 
+        font-weight: bold; 
+    }
+    ion-button {
+        color: rgb(245, 220, 0);
+    }
+    ion-card-content {
+        background-color: rgb(195, 197, 197);
+    }
+    
+}
+@media(min-width: 576px) {
+    ion-content {
+      --ion-background-color: rgb(218, 178, 146);
+    }
+    ion-item {
+        --ion-background-color: rgb(255, 181, 112);
+    }
+    h2{
+        color: rgb(235, 235, 235);  
+    }
+    p{
+        color: rgb(0, 0, 0);
+        font-weight: bold;  
+    }
+    ion-button {
+        color: rgb(245, 220, 0);
+    }
+    ion-card-content {
+        background-color: rgb(255, 181, 112);
+    }
+    
+}
+@media(min-width: 768px) {
+    ion-content {
+      --ion-background-color: rgb(218, 178, 146);
+    }
+    ion-item {
+        --ion-background-color: rgb(255, 181, 112);
+    }
+    h2{
+        color: rgb(235, 235, 235);  
+    }
+    p{
+        color: rgb(0, 0, 0); 
+        font-weight: bold; 
+    }
+    ion-button {
+        color: rgb(245, 220, 0);
+    }
+    ion-card-content {
+        background-color: rgb(195, 197, 197);
+    }
+    
+}
+@media(min-width: 992px) {
+    ion-content {
+      --ion-background-color: rgb(218, 178, 146);
+    }
+    ion-item {
+        --ion-background-color: rgb(255, 181, 112);
+    }
+    h2{
+        color: rgb(235, 235, 235);  
+    }
+    p{
+        color: rgb(0, 0, 0); 
+        font-weight: bold; 
+    }
+    ion-button {
+        color: rgb(245, 220, 0);
+    }
+    ion-card-content {
+        background-color: rgb(195, 197, 197);
+    }
+    
+}
+@media(min-width: 1200px) {
+    ion-content {
+      --ion-background-color: rgb(218, 178, 146);
+    }
+    ion-item {
+        --ion-background-color: rgb(255, 181, 112);
+    }
+    h2{
+        color: rgb(235, 235, 235);  
+    }
+    p{
+        color: rgb(0, 0, 0);  
+        font-weight: bold;
+    }
+    ion-button {
+        color: rgb(245, 220, 0);
+    }
+    ion-card-content {
+        background-color: rgb(195, 197, 197);
+    }
+    
+}
+
+

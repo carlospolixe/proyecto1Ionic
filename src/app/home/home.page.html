@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col *ngFor="let user of users | async" size-xs="12" size-sm="6" size-md="4" size-lg="2" size-xl="1" >
+          <ion-card>
+          <ion-item>
+            <ion-avatar item-start>
+              <img [src]="user.picture.medium">
+            </ion-avatar>
+            <h2>{{ user.name.first }} {{ user.name.last }}</h2>
+          </ion-item>
+          <ion-card-content>
+              <table align="center" class="contacto">
+                  <tr>
+                    <td><h5><p>Nombre:</p> {{ user.name.first }} </h5></td>
+                    <td><h5><p>Apellido:</p> {{ user.name.last }} </h5></td>
+                  </tr>
+                  <tr>
+                    <td><h5><p>Pais:</p> {{ user.location.country}} </h5></td>
+                    <td><h5><p>Ciudad:</p> {{ user.location.city}} </h5></td>
+                  </tr>
+                  <tr>
+                    <td> <h5><p>Calle:</p> {{ user.location.street.number }} {{ user.location.street.name }}</h5></td>
+                  </tr>
+                </table>
+                
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
